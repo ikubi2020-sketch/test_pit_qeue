@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/ikubi2020-sketch/test_pit_qeue/issues"
   },
-  "homepage": "https://github.com/ikubi2020-sketch/test_pit_qeue#readme"
+  "homepage": "https://github.com/ikubi2020-sketch/test_pit_qeue#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
