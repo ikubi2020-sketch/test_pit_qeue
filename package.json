@@ -1,0 +1,21 @@
+{
+  "name": "project_pit_stop",
+  "version": "1.0.0",
+  "description": "git repo      https://github.com/ikubi2020-sketch/test_pit_qeue.git",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikubi2020-sketch/test_pit_qeue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ikubi2020-sketch/test_pit_qeue/issues"
+  },
+  "homepage": "https://github.com/ikubi2020-sketch/test_pit_qeue#readme"
+}
