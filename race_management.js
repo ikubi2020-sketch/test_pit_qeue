@@ -1,6 +1,5 @@
-import {readFile, writeFile } from 'fs/promises';
+import fs from 'fs';
 import rl from "readline-sync";
-import { readlinkSync } from 'fs';
 
 const raceDetails = {}
 
@@ -12,6 +11,7 @@ async function writeToFile (my_cars){
     }
 
 async function initializeRace (){
+    console.log("loading file")
     const raceSnapchat = fetch("https://server-for-test-week-13.onrender.com/api/race")
     .then(raceSnapchat => raceSnapchat.json())
     raceDetails.raceName = raceSnapchat["raceName"]
@@ -34,5 +34,5 @@ async function search_a_car (){
     return "car not found"
 }
 
-export {initializeRace, search_a_car}
+export {initializeRace, search_a_car, raceDetails}
 
